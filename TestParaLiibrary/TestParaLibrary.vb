@@ -100,7 +100,7 @@ tr {
         Dim connectionQuery As New SqlConnection()
         connectionQuery = getConnection(server, databaseQuery, uid, pwd)
 
-        sendEmail()
+        sendEmail() '''
         ''TEST QUERY
         ''data = executeQuery("select * from errorlog ", connectionQuery)
         ''For Each result As DataRow In data.Rows
